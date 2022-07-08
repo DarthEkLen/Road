@@ -1,0 +1,36 @@
+body{
+    display: inline;
+    overflow: hidden;
+      margin: 0
+  }
+  
+canvas {
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+
+.webgl {
+    margin:-2px;
+    /* transition: 0.1s; */
+}
+
+.road{
+    left: 100px;
+    display: inline;
+    position: fixed;
+    font-style: italic;
+    color: darkblue;
+}
+
+.btn{
+    left: 30px;
+    top: 100px;
+    display: inline;
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border-color:azure;
+    background-color: yellow;
+}
